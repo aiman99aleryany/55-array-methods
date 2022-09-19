@@ -24,11 +24,9 @@
 
 function ageAverage(persons) {
   let total = 0;
-
   for (let counter = 0; counter < persons.length; counter++) {
     total += persons[counter].age;
   }
-
   return total / persons.length;
 }
 
